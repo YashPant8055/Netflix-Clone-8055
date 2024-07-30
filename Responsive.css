@@ -1,0 +1,55 @@
+@media screen and (max-width: 1250px){
+
+    nav {
+        max-width: 90vw;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    .center-text> :nth-child(1){
+        font-size: 32px;
+    }
+    
+    .center-text> :nth-child(2){
+        font-size: 18px;
+    }
+    
+    .center-text> :nth-child(3){
+        font-size: 18px;
+    }
+
+    .first{
+        flex-wrap: wrap;
+    }
+
+    .first-Img img {
+        width: 400px;
+    }
+
+    .first-Img video {
+        top: 95px;
+        right: 58px;
+        width: 284px;
+    }
+
+    .second-Img img {
+        margin-top: 6vw;
+        width: 400px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .second-Img video {
+        top: 60px;
+        right: 76px;
+        width: 250px;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
